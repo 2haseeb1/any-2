@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat',sans-serif;
+}
+nav{
+    display:flex;
+     justify-content:space-between;/* flexbox created 10:59 AM 1/18/2022 */
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    align-items:center;
+
+}
+ul li{
+    list-style-type: none;
+    margin: 10px;
+
+}
+ul li a{
+    text-decoration: none;
+}
